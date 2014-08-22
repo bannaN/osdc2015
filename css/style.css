@@ -1,6 +1,17 @@
+/*
+ * Colors;
+ * #93C01F - 147 192 31
+ * #6A8417 - 106 132 23
+ * #3F4F0C - 63 79 12
+ * #3C3C3B - 60 60 59
+ * #C6C6C5 - 198 198 197
+ * #ECECEC - 236 236 236
+ *
+ */
+
 body {
-	background-color: white;
-	color: black;
+	background-color: #ECECEC;
+	color: #3C3C3B;
 	font-family: sans-serif;
 	margin: 0pt auto;
 }
