@@ -28,8 +28,6 @@
 </head>
 
 <body>
-[%- IF title -%]<h1>[% title  %]</h1>[%- END -%]
-
 <div id="wrapper">
 
   <div id="header">
