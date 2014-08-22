@@ -15,7 +15,8 @@ body {
 	font-family: sans-serif;
 	margin: 0pt auto;
 }
-
+#header {
+}
 #wrapper {
 	margin: 0pt auto;
 	width: 850px;
