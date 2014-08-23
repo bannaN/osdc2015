@@ -26,10 +26,8 @@ body {
 
 #menu {
 	font-size: 90%;
-  border-color: #93c01f;
-  border-style: solid;
-  border-bottom: 1px;
-  border-top: 1px;
+  border-top: 1px solid #93c01f;
+  border-bottom: 1px solid #93c01f;
 }
 
 #menu h2 {
