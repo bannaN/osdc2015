@@ -36,6 +36,8 @@
       <div class="large-6 columns">
         <input type="checkbox" id="form-credential-2" name="credential_2"/><label for="form-credential-2">{{Remember me on this computer}}</label>
       </div>
+    </div>
+    <div class="row">
       <div class="large-6 columns">
         <input type="submit" name="join" value="{{Submit}}" class="button"/>
       </div>  
