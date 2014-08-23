@@ -10,7 +10,7 @@
 %]
 <div class="form-wrapper">
   <form method="POST" action="[% global.request.r.uri %]">
-    <div class="large-6 columns">
+    <div class="large-12 columns">
       <div class="row collapse prefix-radius">
         <div class="small-3 columns">
           <span class="prefix">{{Email}}</span>
