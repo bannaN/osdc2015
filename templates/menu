@@ -11,7 +11,7 @@
     <!-- Right Nav Section -->
     <ul class="right">
       [% FILTER collapse %]
-        [% PROCESS menus/user % ]
+        [% PROCESS menus/user %]
       [% END %]
 
 <!--
