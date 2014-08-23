@@ -18,6 +18,7 @@ body {
 #header {
   background: url('../img/osdc_logo-01.png') no-repeat;
   height : 160px;
+  margin-bottom: 1em;
 }
 #wrapper {
 	margin: 0pt auto;
@@ -46,4 +47,9 @@ body {
 	clear: both;
 	font-size: 80%;
 	text-align: right;
+}
+.login-wrapper{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }

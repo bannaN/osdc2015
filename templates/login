@@ -1,4 +1,5 @@
 [% WRAPPER ui title = loc("Log in") %]
+  <div class="login-wrapper">
   [% IF error;
       WRAPPER error_ui;
         loc('Incorrect login or password');
@@ -9,7 +10,7 @@
     <input type="hidden" name="destination" value="[% destination %]"/>
 
     <div class="row">
-      <div class="large-6 columns">
+      <div class="large-12 columns">
         <div class="row collapse prefix-radius">
           <div class="small-3 columns">
             <span class="prefix">{{Login}}</span>
@@ -21,7 +22,7 @@
       </div> 
     </div>
     <div class="row">
-      <div class="large-6 columns">
+      <div class="large-12 columns">
         <div class="row collapse prefix-radius">
           <div class="small-3 columns">
             <span class="prefix">{{Password}}</span>
@@ -33,12 +34,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="large-6 columns">
+      <div class="large-12 columns">
         <input type="checkbox" id="form-credential-2" name="credential_2"/><label for="form-credential-2">{{Remember me on this computer}}</label>
       </div>
     </div>
     <div class="row">
-      <div class="large-6 columns">
+      <div class="large-12 columns">
         <input type="submit" name="join" value="{{Submit}}" class="button"/>
       </div>  
     </div>
@@ -48,4 +49,5 @@
   <p>
    [% loc('This site uses cookies to authenticate logged in users.', domain) %]
   </p>
+  </div>
 [% END %]
