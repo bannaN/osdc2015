@@ -16,8 +16,8 @@ body {
 	margin: 0pt auto;
 }
 #header {
-  background: url('../img/osdc_logo-03.png') no-repeat;
-  height : 100px;
+  background: url('../img/osdc_logo-01.png') no-repeat;
+  height : 160px;
   border-bottom:  1px solid #93c01f;
 }
 #wrapper {
