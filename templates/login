@@ -9,16 +9,17 @@
     <input type="hidden" name="destination" value="[% destination %]"/>
 
     <div class="row">
-     <div class="large-6 columns">
-      <div class="row collapse prefix-radius">
-        <div class="small-3 columns">
-          <span class="prefix">{{Login}}</span>
+      <div class="large-6 columns">
+        <div class="row collapse prefix-radius">
+          <div class="small-3 columns">
+            <span class="prefix">{{Login}}</span>
+          </div>
+          <div class="small-9 columns">
+            <input type="text" name="credential_0"/>
+          </div>
         </div>
-        <div class="small-9 columns">
-          <input type="text" name="credential_0"/>
-        </div>
-      </div>
-    </div> 
+      </div> 
+    </div>
     <div class="row">
       <div class="large-6 columns">
         <div class="row collapse prefix-radius">
@@ -30,6 +31,7 @@
           </div>
         </div>
       </div>
+    </div>
     <div class="row">
       <div class="large-6 columns">
         <input type="checkbox" id="form-credential-2" name="credential_2"/><label for="form-credential-2">{{Remember me on this computer}}</label>
