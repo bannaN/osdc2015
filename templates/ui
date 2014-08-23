@@ -55,7 +55,7 @@
 
 </div>
   <script src="[% make_uri_info('js', 'vendor/jquery.js') %]"></script>
-  <script src="[% make_uri_info('js', 'vendor/foundation.min.js') %]"></script>
+  <script src="[% make_uri_info('js', 'foundation.min.js') %]"></script>
   <script>
     $(document).foundation();
   </script>
