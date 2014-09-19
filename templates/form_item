@@ -1,0 +1,12 @@
+<label class="
+    [% FOREACH err = errors %]
+      [% IF msgs.$err %]
+        error
+        [% LAST %]
+      [% END %]
+    [% END %]
+  ">[% label %]
+  [% content %]
+  [% PROCESS form_errors msgs %]
+</label>
+

@@ -1,0 +1,5 @@
+[% FOREACH err = errors %]
+  [% IF msgs.$err %]
+    <small class="error">[% msgs.$err %]</small>
+  [% END %]
+[% END %]
