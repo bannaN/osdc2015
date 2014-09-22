@@ -76,7 +76,9 @@ body {
     background-color: #93c01f;
     color: #3c3c3b;
 }
-
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  background-color: #93c01f;
+}
 .navbar-default .dropdown-menu {
     background-color: #3c3c3b;
 }
