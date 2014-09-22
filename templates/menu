@@ -9,7 +9,7 @@
     </button>
     <ul class="nav navbar-nav">
       <li class="dropdown">
-        <a class="navbar-brand" href="[% make_uri %]">[% global.conference.name %]</a>
+        <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" href="[% make_uri %]">[% global.conference.name %]</a>
         <ul class="dropdown-menu">
           <li><a href="#">Test1</a></li>
           <li><a href="#">Test2</a></li>
