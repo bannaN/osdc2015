@@ -1,39 +1,63 @@
-[% WRAPPER ui title = global.conference.name %]
+[% WRAPPER ui banner = 1 %]
+  <div class="row event-description">
+    <div class="col-md-6">
+      <div class="embed-responsive embed-responsive-4by3 well">
 
-<p>
-Welcome to OSDC Oslo 2015 website
-</p>
+        <iframe class="embed-responsive-item" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=212646848470940066167.000500e6e7dc7332a2456&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=41.389938,2.112932&amp;spn=0.001296,0.002411&amp;output=embed"></iframe>
+      </div>
+    </div>
 
-<p>
-OSDC Oslo 2015 will be held at the University of Oslo campus 7th - 8th of May 2015.
-The conference is organized by the opensource community in Oslo. The conference will also include the Nordic Perl Workshop 2015 hosted by <a href="http://oslo.pm">Oslo Perl Mongers</a>.
-</p>
+    <div class="col-md-6">
+      <h2>What?</h2>
+      <p>
+        Barcelona Perl Workshop is a one-day conference with all-level Perl related talks.
+      </p>
 
-[% news = global.news(3);
-   IF news.size > 2;
-     more = news.pop;
-   END;
- %]
+      <h2>Where?</h2>
+      <p>
+        The workshop will take place at the Computer Architecture Department (<a href="http://www.upc.edu/">UPC BarcelonaTech</a>, Campus Nord).
+      </p>
 
-[% IF news.size %]
-<h2>Latest News</h2>
-[% FOREACH item = news %]
-<div class="news-entry">
- <h3 class="news-header">
-  <span class="news-date">[% date_format(item.datetime, 'date_short') %]</span>
-  <span class="news-title">[% item.title %]</span>
- </h3>
- <div class="news-text">
-  [% item.content %]
- </div>
-</div>
-[% END %]
-[% END %]
+      <h2>I'm in!</h2>
+      <p>
+        The event has a symbolic price of 20&euro; (which includes an amazing T-shirt and coffee breaks). All speakers will have <b>free entrance</b>. If you want to be a speaker, please
+        <a href="/barcelona2014/newtalk">submit your talk</a> as soon as possible.
+      </p>
+    </div>
+  </div>
 
-[% IF more %]
-<p>
- <a href="[% make_uri('news') %]" class="news-link">Older announcements</a>
-</p>
-[% END %]
+  [% news = global.news(3);
+     IF news.size > 2;
+       more = news.pop;
+     END;
+   %]
 
+  [% IF news.size %]
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+        <div class="panel-body">
+        <h2>Latest News</h2>
+        [% FOREACH item = news %]
+          <div class="news-entry">
+            <h3 class="news-header">
+              <span class="news-date">[% date_format(item.datetime, 'date_short') %]</span>
+              <span class="news-title">[% item.title %]</span>
+            </h3>
+            <div class="news-text">
+              [% item.content %]
+            </div>
+          </div>
+        [% END %]
+        </div>
+        </div>
+      </div>
+    </div>
+  [% END %]
+
+  [% IF more %]
+    <p>
+     <a href="[% make_uri('news') %]" class="news-link">Older announcements</a>
+    </p>
+  [% END %]
 [% END %]

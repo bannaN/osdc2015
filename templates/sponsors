@@ -1,0 +1,18 @@
+<div class="sponsor-container">
+  <div class="container">
+    <div class="sponsor-banner">
+<!--
+      <h2>Our Sponsors:</h2>
+      <div class="sponsor-space">
+        <a href="" class="sponsor corteingles"></a>
+        <a href="" class="sponsor eroski"></a>
+        <a href="" class="sponsor condis"></a>
+        <a href="" class="sponsor alcampo"></a>
+        <a href="" class="sponsor carrefour"></a>
+        <a href="" class="sponsor mercadona"></a>
+      </div>
+-->
+      <h2 class="join">Want to be a sponsor? Send mail to <b><a href="mailto:workshop2014@perl.cat">workshop2014@perl.cat</a></b></h2>
+    </div>
+  </div>
+</div>

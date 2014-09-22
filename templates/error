@@ -1,7 +1,0 @@
-[% FOREACH err_id = errors %]
-  [% IF msgs.$err_id %]
-    [% WRAPPER error_ui %]
-      [% msgs.$err_id %]
-    [% END %]
-  [% END %]
-[% END %]

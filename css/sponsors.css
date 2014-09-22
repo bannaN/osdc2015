@@ -1,0 +1,69 @@
+.sponsor-container {
+  background-color: #000;
+}
+.sponsor-banner {
+  text-align: left;
+  min-height: 120px;
+  padding: 20px 0 40px 0;
+}
+
+.sponsor-banner h2{
+  text-align: center;
+  font-size: 26px;
+  display: block;
+  font-family: "News Cycle","Arial Narrow Bold",sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sponsor-space {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.sponsor-banner .join {
+  padding-top: 45px;
+  padding-top: 10px;
+}
+
+a.sponsor {
+  display: inline-block;
+  background-image: url("../img/sponsors-monochrome.png");
+  background-repeat: no-repeat;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 165px;
+  height: 95px;
+  border: 0;
+  text-decoration: none;
+  opacity: 1;
+}
+
+a.sponsor:hover {
+  background-image: url("../img/sponsors.png");
+  opacity: 1;
+}
+
+.sponsor.corteingles {
+  background-position: 5px -8px;
+}
+
+.sponsor.eroski {
+  background-position: -163px -8px;
+}
+
+.sponsor.condis {
+  background-position: -331px -8px;
+}
+
+.sponsor.alcampo {
+  background-position: 0px -107px;
+}
+
+.sponsor.carrefour {
+  background-position: -165px -107px;
+}
+
+.sponsor.mercadona {
+  background-position: -331px -107px;
+}
