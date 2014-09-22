@@ -30,11 +30,11 @@ body {
 
 .navbar-default {
     border-radius: 0;
-    background-color: #5aadbb;
+    background-color: #3c3c3b;
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
-    border-bottom: 1px solid #6abdcb;
+    border-bottom: 1px solid #6a8417;
     margin-bottom: 0;
 }
 
@@ -51,7 +51,7 @@ body {
 
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar{
-    background-color: #5aadbb;
+    background-color: #3c3c3b;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -74,19 +74,19 @@ body {
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
     background-color: #fff;
-    color: #5aadbb;
+    color: #3c3c3b;
 }
 
 .navbar-default .dropdown-menu {
-    background-color: #5aadbb;
+    background-color: #3c3c3b;
 }
 
 .dropdown-menu .divider {
-    background-color: #6abdcb;
+    background-color: #6a8417;
 }
 
 .pattern {
-    background-color:#5aadbb;
+    background-color:#3c3c3b;
     width:100%;
     margin-top:-20px;
     padding-top:60px;
@@ -114,7 +114,7 @@ body {
 }
 
 .pg-separator {
-    background-color: #5aadbb;
+    background-color: #3c3c3b;
     color: #fff;
     margin-top:-20px;
     padding: 65px 15px 40px 15px;
@@ -150,7 +150,7 @@ body {
 
 footer {
     margin-top: 40px;
-    background-color: #5aadbb;
+    background-color: #3c3c3b;
     color: #000;
 }
 
