@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'bootstrap.journal.min.css') %]" />
     <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'style.css') %]" />
     <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'sponsors.css') %]" />
-    <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'font-awesome.min.css') %]" />
+    <!--    <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'font-awesome.min.css') %]" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
