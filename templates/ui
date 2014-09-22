@@ -35,11 +35,11 @@
     [% IF banner %]
       <main class="pattern" role="main">
         <div class="container">
-          <h1>Barcelona <br />Perl Workshop 2014</h1>
-          <p class="lead dates">Saturday 8th November</p>
+          <h1>OSDC.no <br /> Open Source Developers' Conference 2015</h1>
+          <p class="lead dates">Friday 8th May</p>
           <p>
-            <a href="/barcelona2014/newtalk" class="btn btn-primary btn-lg">Submit a talk <span class="glyphicon glyphicon-chevron-right"></span></a>
-            <a href="/barcelona2014/register" class="btn btn-primary btn-lg">Register <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a href="[% make_uri_info('newtalk') %]" class="btn btn-primary btn-lg">Submit a talk <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <a href="[% make_uri_info('register') %]" class="btn btn-primary btn-lg">Register <span class="glyphicon glyphicon-chevron-right"></span></a>
           </p>
         </div>
       </main>
