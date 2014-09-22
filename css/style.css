@@ -163,3 +163,11 @@ footer {
 .table .act-description label {
   display: inline;
 }
+.btn-primary{
+  background-color: #93c01f;
+  border-color: #6a8417;
+}
+.btn-primary:hover{
+  background-color: #6a8417;
+  border-color: #3f4f0c;
+}
