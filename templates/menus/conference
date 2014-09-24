@@ -6,7 +6,7 @@
     <li><a href="[% make_uri_info('codeofconduct') %]">Coc</a></li>
     <li><a href="[% make_uri_info('sponsors') %]">Sponsors</a></li>
     <li><a href="[% make_uri_info('attendees') %]">Attendees</a></li>
-    <li><a href="[% make_uri_info('statistics') %]">Statistics</a></li>
+    <li><a href="[% make_uri_info('stats') %]">Statistics</a></li>
     <li><a href="[% make_uri_info('search') %]">Search</a></li>
   </ul>
 </li>
