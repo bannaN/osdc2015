@@ -3,8 +3,8 @@
      <i class="fa fa-bullhorn hidden-md hidden-lg"></i><span class="hidden-sm">Conference</span> <b class="caret"></b>
   </a>
   <ul class="dropdown-menu">
-    <li><a href="[% make_uri_info('codeofconduct') %]">Coc</a></li>
-    <li><a href="[% make_uri_info('sponsors') %]">Sponsors</a></li>
+    <li><a href="[% make_uri_info('codeofconduct.html') %]">Coc</a></li>
+    <li><a href="[% make_uri_info('sponsors.html') %]">Sponsors</a></li>
     <li><a href="[% make_uri_info('attendees') %]">Attendees</a></li>
     <li><a href="[% make_uri_info('stats') %]">Statistics</a></li>
     <li><a href="[% make_uri_info('search') %]">Search</a></li>
