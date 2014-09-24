@@ -7,20 +7,12 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <ul class="nav navbar-nav">
-      <li class="dropdown">
-        <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" href="[% make_uri %]">[% global.conference.name %]</a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Test1</a></li>
-          <li><a href="#">Test2</a></li>
-          <li><a href="#">Test3</a></li>
-        </ul>
-      </li>
-    </ul>
+    <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" href="[% make_uri %]">[% global.conference.name %]</a>
   </div>
 
   <div class="collapse navbar-collapse" id="nav-menu-options">
     <ul class="nav navbar-nav">
+      [% PROCESS menus/conference %]
       [% PROCESS menus/news %]
       [% PROCESS menus/talks %]
       [% PROCESS menus/users %]
