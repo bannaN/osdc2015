@@ -153,6 +153,10 @@ footer {
     margin-top: 40px;
     background-color: #3c3c3b;
     color: #000;
+    border-top: 1px solid #6a8417;
+}
+footer .navbar.navbar-default{
+  background-color: #fafafa;
 }
 
 .holder {
