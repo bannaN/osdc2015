@@ -15,11 +15,11 @@
       [% PROCESS menus/conference %]
       [% PROCESS menus/news %]
       [% PROCESS menus/talks %]
-      [% PROCESS menus/users %]
       [% PROCESS menus/wiki %]
     </ul>
     <ul class="nav navbar-nav navbar-right">
       [% PROCESS menus/language %]
+      [% PROCESS menus/admin %]
       [% PROCESS menus/user %]
     </ul>
   </div>
