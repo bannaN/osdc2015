@@ -1,10 +1,10 @@
 @font-face {
   font-family: osdcbold;
-  src(fonts/code_bold.otf);
+  src: url(fonts/code_bold.otf);
 }
 @font-face{
   font-family: osdclight;
-  src(fonts/code_light.otf)
+  src: url(fonts/code_light.otf)
 }
 
 body {
