@@ -122,15 +122,12 @@ body {
    font-weight: normal;
    font-family: 'Lobster', cursive;
 }
-.container h1 span.osdcbold{
+.container span.osdcbold{
   font-family: osdcbold;
   color: #93c01f;
 }
-.container h1 span.osdclight{
+.container span.osdclight{
   font-family: osdclight;
-}
-.container h3{
-  font-size: 1em;
 }
 
 .pg-separator {
