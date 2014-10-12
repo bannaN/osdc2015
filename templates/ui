@@ -36,7 +36,8 @@
     [% IF banner %]
       <main class="pattern" role="main">
         <div class="container">
-          <h1><span class="osdcbold">OSDC Nordic 2015</span><br /> <span class="osdclight">Open Source Developers' Conference</span></h1>
+          <h1><span class="osdcbold">OS</span><span class="osdclight">DC Nordic 2015</span></h1>
+          <h3><span class="osdclight">Open Source Developers' Conference</span></h3>
           <p class="lead dates">May 8-10th</p>
           <p>
             <a href="[% make_uri_info('newtalk') %]" class="btn btn-primary btn-lg">Submit a talk <span class="glyphicon glyphicon-chevron-right"></span></a>

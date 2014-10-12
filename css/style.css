@@ -1,10 +1,10 @@
 @font-face {
   font-family: osdcbold;
-  src: url(fonts/code_bold.otf);
+  src: url(../fonts/code_bold.otf);
 }
 @font-face{
   font-family: osdclight;
-  src: url(fonts/code_light.otf)
+  src: url(../fonts/code_light.otf)
 }
 
 body {
@@ -124,9 +124,13 @@ body {
 }
 .container h1 span.osdcbold{
   font-family: osdcbold;
+  color: #93c01f;
 }
 .container h1 span.osdclight{
   font-family: osdclight;
+}
+.container h3{
+  font-size: 1em;
 }
 
 .pg-separator {
