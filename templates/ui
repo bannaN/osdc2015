@@ -36,7 +36,7 @@
     [% IF banner %]
       <main class="pattern" role="main">
         <div class="container">
-          <h1><span class="osdcbold">OS</span><span class="osdclight">DC Nordic 2015</span></h1>
+          <h1><span class="osdcbold osdcgreen">OS</span><span class="osdclight">DC Nordic 2015</span></h1>
           <h2><span class="osdclight">Open Source Developers' Conference</span></h2>
           <p class="lead dates">May 8-10th</p>
           <p>

@@ -10,6 +10,7 @@
 }
 
 body {
+    font-family: "Arimo", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
     background-color: #fafafa;
 }
@@ -29,8 +30,6 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Lobster', cursive;
-  text-transform: none;
   font-size: 1.2em;
   font-weight: normal;
 }
@@ -115,20 +114,20 @@ body {
    color: #fff;
    margin-top 30px;
    margin-bottom: 60px;
-   font-family: "News Cycle","Arial Narrow Bold",sans-serif
 }
 
 .pattern .container h1 {
    font-size: 68px;
    color: #fff;
    font-weight: normal;
-   font-family: 'Lobster', cursive;
 }
-.container span.osdcbold{
-  font-family: osdcbold;
+span.osdcgreen{
   color: #93c01f;
 }
-.container span.osdclight{
+span.osdcbold{
+  font-family: osdcbold;
+}
+span.osdclight{
   font-family: osdclight;
 }
 
@@ -163,7 +162,6 @@ body {
 }
 
 .event-description h2 {
-    font-family: 'Lobster', cursive;
     font-weight: normal;
 }
 
