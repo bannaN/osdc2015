@@ -8,8 +8,7 @@
       <span class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="[% make_uri %]" title="[% global.conference.name %]">
-      <span class="osdcbold osdcgreen">OS</span>
-      <span>DC.no </span>
+      <span class="osdcbold osdcgreen">OS</span><span class="osdclight">DC.no </span>
       <span class="osdcbold">2015</span>
     </a>
   </div>
