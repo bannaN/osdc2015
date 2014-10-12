@@ -1,3 +1,12 @@
+@font-face {
+  font-family: osdcbold;
+  src(fonts/code_bold.otf);
+}
+@font-face{
+  font-family: osdclight;
+  src(fonts/code_light.otf)
+}
+
 body {
     font-size: 18px;
     background-color: #fafafa;
@@ -112,6 +121,12 @@ body {
    color: #fff;
    font-weight: normal;
    font-family: 'Lobster', cursive;
+}
+.container h1 span.osdcbold{
+  font-family: osdcbold;
+}
+.container h1 span.osdclight{
+  font-family: osdclight;
 }
 
 .pg-separator {
